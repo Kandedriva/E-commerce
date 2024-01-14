@@ -1,0 +1,26 @@
+
+body{
+  background-color: rgb(230, 198, 139);
+}
+.login-form{
+  background-color: white;
+  border: 2px solid;
+  padding: 70px 5px 70px 2px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin:0 20% 0 20%;
+  text-align: center;
+  margin-top: 10%;
+}
+.login-input{
+  font-size: 25px;
+}
+.login-button{
+  margin-top: 20px;
+  border: 1px solid;
+  border-radius: 5%;
+  padding: 5px 25px 5px 25px;
+}
+.login-button:hover{
+  background-color: orange;
+}
