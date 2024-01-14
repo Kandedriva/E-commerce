@@ -1,28 +1,61 @@
 import React from "react";
-import { Form, Button } from 'react-bootstrap';
-
-import { useMemo } from "react";
+import { useState } from "react";
 
 function Login(){
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
+
+    function handleEmail(event){
+        const value = event.target.value;
+        const name = event.target.name
+        console.log(value, name)
+        setEmail({
+            ...email,
+            [name]: value
+        })
+    }
+
+    function handlePassword(event){
+        const value = event.target.value;
+        const name  = event.target.name;
+        setPassword({
+            ...password,
+            [name]: value
+        })
+    }
+
+    function handleSumit(event){
+        event.preventDifault()
+    }
     return(
      <>
      <div className="login-form">
      <h1>LOG IN</h1>
 
-     <form>
+     <form onSubmit={handleSumit}>
        <div>
-       <label>user name</label><br></br>
-        <input className="login-input"></input>
+       <label>Email</label><br></br>
+        <input 
+        name="email"
+        className="login-input"
+        onChange={handleEmail}
+        ></input>
        </div>
        <div>
        <label>Password</label><br></br>
-        <input className="login-input"></input>
+        <input 
+        onChange={handlePassword}
+        className="login-input"
+        name="password"
+        ></input>
        </div>
-       <di>
+       <div>
        <button className="login-button">Login</button>
-       </di>
+       </div>
        </form>
      </div>
+    
+      
      </>
         )
 }
