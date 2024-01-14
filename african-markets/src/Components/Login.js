@@ -25,7 +25,8 @@ function Login(){
     }
 
     function handleSumit(event){
-        event.preventDifault()
+        event.preventDefault()
+        console.log("Submited")
     }
     return(
      <>
