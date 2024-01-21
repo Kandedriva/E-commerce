@@ -24,3 +24,11 @@ body{
 .login-button:hover{
   background-color: orange;
 }
+.each-store{
+  background-color: white;
+  border: 2px solid;
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+  width: 25%;
+}

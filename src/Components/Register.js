@@ -27,7 +27,17 @@ function createUser(event){
     email: register.email,
     password: register.password
   }
-  console.log(newUser)
+  fetch("http://localhost:3000/users",{
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    body: JSON.stringify(newUser)
+
+  })
+  .then(response =>response.json())
+  .then(newUsers => console.log(newUsers))
 }
 
 

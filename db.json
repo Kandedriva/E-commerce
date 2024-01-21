@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "firstname": "Drivano",
+      "lastname": "Kande",
+      "email": "dev@gmail.com",
+      "password": "Admin"
+    },
+    {
+      "id": 1,
+      "firstname": "Oumar",
+      "lastname": "Soumahoro",
+      "email": "oumars@gmail.com",
+      "password": "filsdimam"
+    },
+    {
+      "id": 2,
+      "firstname": "User1",
+      "lastname": "First",
+      "email": "firstuser@gmail.com",
+      "password": "1234$"
+    },
+    {
+      "firstname": "store",
+      "lastname": "shopify",
+      "email": "drissakande@gmail.com",
+      "password": "qwerty",
+      "id": 3
+    },
+    {
+      "firstname": "store",
+      "lastname": "admin",
+      "email": "shopifystore825@gmail.com",
+      "password": "hhhhh",
+      "id": 4
+    },
+    {
+      "firstname": "store",
+      "lastname": "admin",
+      "email": "shopifystore825@gmail.com",
+      "password": "hhhhh",
+      "id": 5
+    }
+  ],
+  "stores": [
+    {
+      "id": 0,
+      "storename": "Store des peules",
+      "image": "/public/logo192.pgn",
+      "location": "Manhattan avenue 116 street"
+    },
+    {
+      "id": 0,
+      "storename": "Store des Senegalais",
+      "image": "/public/logo512.pgn",
+      "location": "Manhattan avenue 116 street"
+    }
+  ]
+}
