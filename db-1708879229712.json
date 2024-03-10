@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "firstname": "Drivano",
+      "lastname": "Kande",
+      "email": "dev@gmail.com",
+      "password": "Admin"
+    },
+    {
+      "id": 1,
+      "firstname": "Oumar",
+      "lastname": "Soumahoro",
+      "email": "oumars@gmail.com",
+      "password": "filsdimam"
+    },
+    {
+      "id": 2,
+      "firstname": "User1",
+      "lastname": "First",
+      "email": "firstuser@gmail.com",
+      "password": "1234$"
+    },
+    {
+      "firstname": "store",
+      "lastname": "shopify",
+      "email": "drissakande@gmail.com",
+      "password": "qwerty",
+      "id": 3
+    },
+    {
+      "firstname": "store",
+      "lastname": "admin",
+      "email": "shopifystore825@gmail.com",
+      "password": "hhhhh",
+      "id": 4
+    },
+    {
+      "firstname": "store",
+      "lastname": "admin",
+      "email": "shopifystore825@gmail.com",
+      "password": "hhhhh",
+      "id": 5
+    }
+  ],
+  "stores": [
+    {
+      "id": 0,
+      "storename": "Store des peules",
+      "image": "images/logo192.png",
+      "location": "Manhattan avenue 116 street",
+      "products": [
+        {
+          "id": 0,
+          "productImage": "",
+          "productName": "Ocra",
+          "productDescription": "Ocra is the best cub maggi for your dishes",
+          "productPrice": "$1"
+        },
+        {
+          "id": 1,
+          "productImage": "",
+          "productName": "egg plant",
+          "productDescription": "egg plant is the best cub maggi for your dishes",
+          "productPrice": "$2"
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "storename": "Store des Senegalais",
+      "image": "images/logo192.png",
+      "location": "Manhattan avenue 116 street",
+      "products": [
+        {
+          "id": 0,
+          "productImage": "",
+          "productName": "Cub maggi Jumbo",
+          "productDescription": "Jumbo is the best cub maggi for your dishes",
+          "productPrice": "$1"
+        },
+        {
+          "id": 1,
+          "productImage": "",
+          "productName": "sel",
+          "productDescription": "sel is the best cub maggi for your dishes",
+          "productPrice": "$2"
+        }
+      ]
+    }
+  ]
+}

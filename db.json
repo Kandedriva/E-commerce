@@ -47,14 +47,57 @@
     {
       "id": 0,
       "storename": "Store des peules",
-      "image": "/public/logo192.pgn",
-      "location": "Manhattan avenue 116 street"
+      "image": "images/logo192.png",
+      "location": "Manhattan avenue 116 street",
+      "products":[
+        {
+          "id": 0,
+          "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRqxKSSHwotx5SVBIlnB84YXZRQSL6ViOK-w&usqp=CAU",
+          "productName": "Ocra",
+          "productDescription": "Ocra is the best saison for your dishes",
+          "productPrice": "$1"
+
+        },
+        {
+          "id": 1,
+          "productImage": "https://www.treehugger.com/thmb/K0v7mj-MTjEpIENA1hyCoFcfCOk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2018__06__eggplant-3e0f0e053ba4479d864b97d5c8a2b762.jpg",
+          "productName": "egg plant",
+          "productDescription": "egg plant is the best saison for your dishes",
+          "productPrice": "$2"
+
+        }
+      ]
     },
     {
       "id": 0,
       "storename": "Store des Senegalais",
-      "image": "/public/logo512.pgn",
-      "location": "Manhattan avenue 116 street"
+      "image": "images/logo192.png",
+      "location": "Manhattan avenue 116 street",
+      "products":[
+        {
+          "id": 0,
+          "productImage": "https://i.ebayimg.com/images/g/pyIAAOSwoghk8pad/s-l400.jpg",
+          "productName": "Cub maggi Jumbo",
+          "productDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+          "productPrice": "$1"
+
+        },
+        {
+          "id": 1,
+          "productImage": "https://m.media-amazon.com/images/I/41nin5o-b4L._PIbundle-3,TopRight,0,0_SX483SY632SH20_.jpg",
+          "productName": "salt",
+          "productDescription": "sel is the best cub maggi for your dishes",
+          "productPrice": "$2"
+
+        },
+        {
+          "id": 2,
+          "productImage": "https://media.istockphoto.com/id/586044228/photo/fresh-young-okra.jpg?s=612x612&w=0&k=20&c=ZRz8L_USIoMl6A6e-Ehxgi0e5dHukanmAYWXxD7wP1Q=",
+          "productName": "no Name",
+          "productDescription": "sLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium nibh ipsum consequat nisl vel pretium lectus quam. Augue mauris augue neque gravida in fermentum et sollicitudin ac.",
+          "productPrice": "$20"
+        }
+      ]
     }
   ]
 }

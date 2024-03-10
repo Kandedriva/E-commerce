@@ -2,6 +2,17 @@
 body{
   background-color: rgb(230, 198, 139);
 }
+a{
+  font-size: 25px;
+  margin: 5px;
+  padding: 10px;
+}
+.navigation-bar{
+  background-color: aqua;
+  font-size: 25px;
+  margin: 10px;
+  padding: 30px;
+}
 .login-form{
   background-color: white;
   border: 2px solid;
@@ -24,11 +35,38 @@ body{
 .login-button:hover{
   background-color: orange;
 }
-.each-store{
+.each-store, .store-products{
+  display: inline-block;
   background-color: white;
   border: 2px solid;
   padding: 30px;
   margin: 10px;
   text-align: center;
   width: 25%;
+}
+
+.first-div{
+  background-color: aquamarine;
+  display: inline-block;
+  margin: 0 5px 0 5px;
+  padding: auto;
+}
+.ItemPicture{
+  width: 35%;
+}
+.card-button{
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 50%;
+}
+.card-button:hover{
+  background-color: dodgerblue;
+}
+.search-bar{
+  font-size: 20px;
+  margin-left: 35%;
+}
+.search-button{
+  font-size: 20px;
+  margin-left: 0px;
 }

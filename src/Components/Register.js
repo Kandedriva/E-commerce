@@ -53,6 +53,8 @@ function createUser(event){
 <input 
 name = "firstName"
 onChange={handleChange}
+autoComplete="username"
+
 ></input>
   </div>
   <div>
@@ -60,6 +62,8 @@ onChange={handleChange}
 <input
 name="lastName"
 onChange={handleChange}
+autoComplete="username"
+
 ></input>
   </div>
   <div>
@@ -67,6 +71,8 @@ onChange={handleChange}
 <input
 name="email"
 onChange={handleChange}
+autoComplete="username"
+
 ></input>
   </div>
   <div>
@@ -75,6 +81,8 @@ onChange={handleChange}
 type="password"
 name="password"
 onChange={handleChange}
+autoComplete="current-password"
+
 ></input>
   </div>
   <div>
